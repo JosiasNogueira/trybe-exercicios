@@ -1,0 +1,20 @@
+h1{
+    font-family: sans-serif;
+    color: brown;
+    background-color: black;
+}
+p{
+font-weight: 600;
+font-size: 48;
+color: blue;
+background-color: aquamarine;
+}
+body{
+  font-size: 16px;
+}
+ul{
+  font-style: oblique;
+  line-height: 20px;
+  color: rgb(195, 0, 255);
+background-color: rgb(242, 255, 127);
+}
