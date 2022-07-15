@@ -1,0 +1,6 @@
+h1, p {
+text-align: center;
+}
+ul:hover {
+    background-color: rgb(17, 146, 103);
+}
