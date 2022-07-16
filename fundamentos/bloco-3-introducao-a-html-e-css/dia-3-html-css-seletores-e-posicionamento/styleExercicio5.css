@@ -1,0 +1,70 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-of-type(1) {
+    text-transform: uppercase;
+}
+
+ol li:nth-of-type(3) {
+    text-transform: uppercase;
+}
+
+ol li:nth-of-type(5) {
+    text-transform: uppercase;
+}
+
+ol li:nth-of-type(2) {
+    color: green;
+}
+
+ol li:nth-of-type(4) {
+    color: green;
+}
+h1 {
+    color: red;
+}
+
+h1 {
+font-size: 40px;
+border: 1px black solid;
+margin-left: 20px;
+margin-right: 900px;
+}
+
+li {
+    font-size: 20px;
+    font-weight:bold ;
+}
+
+ul.ling li:nth-of-type(1) {
+    color: blue;
+}
+ul.ling li:nth-of-type(2) {
+    color: blue;
+}
+ul.ling li:nth-of-type(3) {
+    color: blue;
+}
+ul li.java {
+    background-color: pink;
+}
+ul.site li:nth-of-type(1) :hover {
+    background-color: rgb(130, 235, 130);
+}
+
+ul.site li:nth-of-type(2) :hover {
+    background-color: orange;
+}
+
+ul.site li:nth-of-type(3) :hover {
+    background-color: rgb(60, 60, 224);
+}
+
+ul.site li:nth-of-type(4) :hover {
+    background-color: gray;
+}
+
+ul.site li:nth-of-type(5) :hover {
+    background-color: rgb(34, 226, 34);
+}
