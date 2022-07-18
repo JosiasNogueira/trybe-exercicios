@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+  }
+
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    display: block;
+    margin-left: 700px;
+  }
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin-left: 500px;
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+
+  .cabeçalho { 
+    text-align: center;
+    display: block;
+  }
+  .secao {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    padding-left: 200px;
+  }
+
+  .secao li:nth-of-type(1) {
+    margin-left: 250px;
+    
+  }
+
+  .secao li {
+    display: inline;
+  }
+
+  .titulo {
+    padding-left: 360px;
+  }
