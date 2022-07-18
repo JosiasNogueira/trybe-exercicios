@@ -64,3 +64,23 @@ margin-left: 300px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;   
 }
+
+h2 {
+    font-size: 40px;
+}
+
+.secao2 {
+    text-align: center;
+    max-width: 500px;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.rodape {
+    text-align: center;
+    max-width: 500px;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
