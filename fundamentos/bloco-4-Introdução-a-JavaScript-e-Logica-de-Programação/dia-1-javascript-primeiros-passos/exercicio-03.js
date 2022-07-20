@@ -1,9 +1,9 @@
-const a = 9;
+const a = -12;
 
-if(a%2 === 0){
+if(a>0){
     console.log("positive")
 }
-else if(a%2 === 1){
+else if(a<0){
     console.log("negative")
 }
 else{
