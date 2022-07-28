@@ -58,21 +58,37 @@
   <body>
     <script>
       // 1 - 🚀 Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
-        let corpo = document.querySelector('body');
+        const corpo = document.querySelector('body');
         console.log(corpo);
-        let h1 = document.createElement("h1");
+        const h1 = document.createElement("h1");
         h1.id = "text";
         corpo.appendChild(h1);
         document.getElementById("text").innerText = "Exercício 5.2 - JavaScript DOM como filho da tag body";
         document.getElementById("text").style.color="black";
+
         // 🚀 Adicione a tag main com a classe main-content como filho da tag body;
-        let main = document.createElement('main');
-        main.className= "main-content";
+        const main = document.createElement('main');
+        main.className = "main-content";
         corpo.appendChild(main);
+
         // Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
         let section = document.createElement('section');
-        section.className="classe center-content";
+        section.className = "classe center-content";
+        main.appendChild(section);
+
+        // 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+        const p = document.createElement('p');
+        section.appendChild(p);
+        document.getElementsByTagName('p').innerText= 'p filho de section que e filha de main que e filho de body';
+
+        // Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+        // let section = document.getElementsByClassName('section');
+        let section2 = document.createElement('section');
+        section2.className ='classe left-content';
+        section.appendChild(section2);
         
+
+
 
     </script>
   </body>
