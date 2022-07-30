@@ -49,11 +49,19 @@ function createDaysOfTheMonth() {
 }
     createDaysOfTheMonth();
 
-//   exercicio 1 A tag <ul> deve conter o id 'days';
-const lista = document.querySelector('ul');
-lista.id = 'days';
+//   Exercício 2:
+// Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
+// Sua função deve receber um parâmetro com a string 'Feriados'
+// Adicione a este botão a ID "btn-holiday"
+// Adicione este botão como filho/filha da tag <div> com classe "buttons-container"
 
-//   exercicio 2 Os dias devem estar contidos em uma tag <li>, e 
-//   todos devem ter a classe day. Ex: <li class="day">3</li>
+    function CriaFeriados(buttonName) {
+        let DivPai = document.querySelector('.buttons-container');
+        let botao = document.createElement('button');
+        let novoBotaoId = 'btn-holiday';
 
-const lidays = document.getElementsByClassName('')
+        botao.innerHTML = buttonName;
+        botao.id = novoBotaoId
+        DivPai.appendChild(botao);
+    }
+    CriaFeriados('Feriados');
