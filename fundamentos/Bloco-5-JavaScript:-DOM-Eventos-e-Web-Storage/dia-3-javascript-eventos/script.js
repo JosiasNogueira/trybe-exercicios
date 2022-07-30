@@ -17,15 +17,15 @@ createDaysOfTheWeek();
 //   Primeiro passo: Crie uma lista com os dias
 let decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 //   Segundo passo: Crie a função a ser executada para popular nosso calendário.
-function criandoDiasDoMes() {
+function createDaysOfTheMonth() {
     // Terceiro passo: Armazene o elemento da id days em uma variável, para isso, será utilizado o querySelector.  
-    let getDayList = document.querySelector('#days');
+    let getDaysList = document.querySelector('#days');
     // Quarto passo: Crie um loop que popule a ul com nossa lista.
     for (let index = 0; index < decemberDaysList.length; index += 1) {
         // Quinto passo Crie uma variável que gere uma li e outra para indicar o dia.
         let day = decemberDaysList[index];
-        let dayitem = document.createElement('li')
-        dayitem.innerHTML = day;
+        let dayItem = document.createElement('li');
+        dayItem.innerHTML = day;
         // Sexto passo: Crie condicionais dentro do loop.
         if (day === 24 || day === 31) {  //Sétimo passo: Adicione a lógica a cada etapa condicional que você criou.
             //  // Caso o dia for 24 ou 31
@@ -47,9 +47,6 @@ function criandoDiasDoMes() {
         }
     }
 }
-function createDaysOfTheMonth() {
-    //...
-    }
     createDaysOfTheMonth();
 
 //   exercicio 1 A tag <ul> deve conter o id 'days';
