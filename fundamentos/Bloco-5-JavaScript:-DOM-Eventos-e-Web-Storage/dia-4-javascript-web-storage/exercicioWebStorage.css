@@ -1,5 +1,6 @@
 button {
-    border: solid, black, 1px;
-    width: 5px
-    ;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
