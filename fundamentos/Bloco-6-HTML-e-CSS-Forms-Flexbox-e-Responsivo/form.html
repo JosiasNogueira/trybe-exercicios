@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Formulário para sorteio!</h1>
-        <p><h2>Concorra a uma viagem, com tudo pago pela tribe! basta preencher o formulário abaixo!!</h2></p>
+        <p>
+        <h2>Concorra a uma viagem, com tudo pago pela tribe! basta preencher o formulário abaixo!!</h2>
+        </p>
     </header>
     <section>
         <form action="" method="get">
-            <label for="nomeCompleto">Nome"</label>
-            <input type="text" name="nome" id="nomeCompleto" maxlength="40" minlength="10" required placeholder="Digite seu nome aqui!">
+            <div>
+                <label for="nomeCompleto">Nome: </label>
+                <input type="text" name="nome" id="nomeCompleto" maxlength="40" minlength="10" required
+                    placeholder="Digite seu nome aqui!">
+                <br>
+                <label for="emailDoParticipante">Email:</label>
+                <input type="email" name="email" id="emailDoParticipante" minlength="10" maxlength="50">
+            </div>
+            <div>
+                <input type="radio" name="Destino" id="Destino-1" value="Cidade">
+                <label for="Destino-1">Cidade</label>
+                <input type="radio" name="Destino" id="Destino-2" value="Campo">
+                <label for="Destino-2">Campo</label>
+                <input type="radio" name="Destino" id="Destino-3" value="Praia">
+                <label for="Destino-3">Praia</label>
+                <input type="radio" name="Destino" id="Destino-4" value="montahas">
+                <label for="Destino-4">Montanhas</label>
+            </div>
+            </div>
+            <label for="">porque</label>
+            <h2>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
             <br>
-            <label for="emailDoParticipante">Email</label>
-            <input type="email" name="email" id="emailDoParticipante" minlength="10" maxlength="50">
-            <br>
-            <input type="radio" name="Destino" id="Destino-1" value="Cidade"> 
-            <label for="Destino-1">Cidade</label>
-            <input type="radio" name="Destino" id="Destino-2" value="Campo"> 
-            <label for="Destino-2">Campo</label>
-            <input type="radio" name="Destino" id="Destino-3" value="Praia"> 
-            <label for="Destino-3">Praia</label>
-            <input type="radio" name="Destino" id="Destino-4" value="montahas"> 
-            <label for="Destino-4">Montanhas</label>
-
-
+            <textarea name="porque" id="porque" cols="30" rows="10" maxlength="500"></textarea>
+            </div>
         </form>
 
     </section>
-    
+
 </body>
+
 </html>
