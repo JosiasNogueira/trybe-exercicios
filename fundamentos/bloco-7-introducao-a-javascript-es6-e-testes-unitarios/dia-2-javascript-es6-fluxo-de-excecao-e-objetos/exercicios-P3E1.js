@@ -24,7 +24,5 @@ const lesson1 = {
 };
 adicionandoNoiteLesso2(lesson2, 'turno', 'noite');
  console.log(lesson2);
- 
-  
 
  
