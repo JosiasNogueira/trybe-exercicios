@@ -1,6 +1,6 @@
-const sum = require('./sum');
+const { sum, myRemove } = require('./sum');
 
-describe('exercicio 7.3', () => {
+describe('exercicio 7.3 exercicio 1', () => {
 
     test('Teste se o retorno de sum(4, 5) é 9', () => {
         expect(4 + 5).toBe(9);
@@ -19,4 +19,12 @@ describe('exercicio 7.3', () => {
     })
 
 
-}) ;
+});
+
+describe('exercicio 7.3 exercicio 2', () => {
+
+    test('deve retornar um array removendo o item correto', () => {
+        expect(myRemove([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
+    })
+
+});
