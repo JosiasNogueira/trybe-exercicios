@@ -23,3 +23,15 @@ const lesson1 = {
 //   que queremos atribuir à ele. Se no primeiro parametro passarmos um objeto 
 //   vazio ele criará um objeto novo com as carateristicas do segundo parâmetro.
 console.log(allLessons);
+
+const totalAlunos = (obj) => { // essa será a função responsável pela lógica e ela receberá um objeto como parâmetro.
+    let total = 0; // começamos a contagem de alunos com 0;
+
+const array = Object.keys(obj); // pegamos as chaves do objeto;
+
+for (index in array) { // for in para iterar sobre o array de chaves
+    total += obj[array[index]].numeroEstudantes // incremente a variável total a cada iteração
+}
+return total; // a função retorna o total de alunos após as iterações do "for/in"
+};
+console.log(totalAlunos(allLessons));
