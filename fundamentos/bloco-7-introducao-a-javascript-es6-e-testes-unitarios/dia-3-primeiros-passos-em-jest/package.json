@@ -1,7 +1,7 @@
 {
   "name": "dia-3-primeiros-passos-em-jest",
   "version": "1.0.0",
-  "description": "exercicios 7.3",
+  "description": "",
   "main": "sum.js",
   "scripts": {
     "test": "jest"
