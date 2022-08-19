@@ -2,11 +2,11 @@
 // const checaNumero = (meNumero, numero) => meNumero === numero;
 
 // const geraNumero = (min, max) => {  // função recebe 2 numeros 
-    // min = Math.ceil(min); //numero min aplicando math.ceil arredonda pra cima caso seja qubrado
-    // max = Math.floor(max); // numero max arredonda pra baixo caso seja quebrado
+// min = Math.ceil(min); //numero min aplicando math.ceil arredonda pra cima caso seja qubrado
+// max = Math.floor(max); // numero max arredonda pra baixo caso seja quebrado
 
-    // return Math.floor(Math.random() * (max - min) + min); // retorna o numero entre 1 e 5.
-}
+// return Math.floor(Math.random() * (max - min) + min); // retorna o numero entre 1 e 5.
+// }
 // console.log(geraNumero(1.1, 5));
 
 const numberChecker = (myNumber, number) => myNumber === number;
